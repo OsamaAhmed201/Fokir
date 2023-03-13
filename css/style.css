@@ -13,55 +13,25 @@ body
     clear: both;
 }
 
-.home-nav
-{
-   background-color: rgba(0, 0, 0, 0.76);
-   position: relative;
-  
-   
+#nav-main{
+    background-color: rgba(0, 0, 0, 0.76);
 }
-.home-nav ul{
-    
-    float: right;
-    width: 50%;
-    list-style: none;
-    padding: 20px 0px;
-    z-index: 99999;
+.navbar-brand{
+    color: #ff305b !important;
 }
-.home-nav ul li{
-    float: left;
+.nav-link:hover{
+    color: #ff305b !important;
 }
-.home-nav ul li a{
-    margin: 17px;
-    text-decoration: none;
-    color: rgb(224, 208, 208);
-    font-size: 17px;
-    font-family: 'Source Sans Pro', sans-serif;
-    transition: 0.5s;
+.navbar-toggler-icon{
+  background-color: #ac0929 !important;
 }
-.home-nav .logo
-{
-    float: left;
-   padding: 18px 60px;
-    width: 20%;
-    color: #ff305b;
-    font-size: 24px;
-    font-weight: 800;
-    font-family: 'Source Sans Pro', sans-serif;
-    transition: 1s;
-    background-color: rgba(0, 0, 0, 0.623);
-
-} 
-.logo:hover 
-{
-    
-   color: white;
+.navbar-toggler{
+    border: 2px solid #d7d7d75c !important;
+    padding: 5px 7px;
 }
 
-.hover-a:hover
-{
-    color: #ff3059d2;
-}
+/* //// */
+/* home */
 
 .home
 {
@@ -95,33 +65,18 @@ body
     font-size: 26px;
     color: #ffffff;
 }
+/* /////////////// */
+/* about */
 
-.all-img
-{
-    padding: 15px 50px;
-    
-}
-.all-about
-{
-    width: 90%;
-    margin: auto;
-}
 .about-member
 {
-   
-    background-color: #ff305b;
-    width: 30%;
-    margin: auto;
     position: relative;
     overflow: hidden;
     float: left;
     box-shadow: 4px 5px 5px #999999;
 }
-.about-member img
-{
-    width: 100%;
-    
-}
+
+
 .about-icons
 {
     background-color: rgba(0, 0, 0, 0.685);
@@ -157,38 +112,15 @@ body
     text-decoration: none;
     color: #555555;
 }
-.about-caption
-{
-    
-    float: right;
-    width: 65%;
-    list-style: none;
-    padding: 10px 50px 50px 50px ;
-    margin-bottom: 30px;
 
-}
 
 .about-caption h2
 {
-    margin-bottom: 15px;
-    font-size: 34px;
-    font-weight: 600;
-    line-height: 22px;
-    margin-bottom: 25px;
-    padding-left: 13px;
+ font-size: 35px;
+ font-weight: 600;
 }
 
-.about-caption p
-{
-    font-size: 19px;
-    line-height: 22px;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    border-bottom: 1px dashed #999999;
-    
-    color: #555555;
-    
-}
+
 .about-caption ul li
 {
     list-style: none;
@@ -197,7 +129,6 @@ body
  {
      padding: 10px 24px;
      background-color: #ff305b;
-     
      border: none;
      border-radius: 4px;
      margin: 15px 5px;
@@ -218,12 +149,11 @@ body
  }
 
 
- .Services
- {
+ /* Services */
 
-    
-     text-align: center;
-    height: 70vh;
+ .Services
+ { 
+     text-align: center; 
     width: 90%;
      margin: auto   ;
  }
@@ -237,6 +167,8 @@ margin: auto;
  .all-services
  {
     background: #f1f1f1;
+    padding: 30px;
+
  }
  .Services h1
  {
@@ -246,8 +178,8 @@ margin: auto;
  }
  .Services .member
  {
-     width: 25%;
-     float: left;
+ 
+   
      padding: 20px  0px 20px 0px;
      margin-top: 50px;
      transition: 0.2s ;
@@ -276,189 +208,87 @@ color: #ff305b;
  {
 background-color: white;
 transform: scale(1.099);
+border-radius: 20px;
  }
-
-
- .Portfolio
- {
-     text-align: center;
-     width: 83%;
-     margin: auto;
-     
-     
- }
- .Portfolio h2
- {
-
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 30px;
-    margin-bottom: 10px;
-    
-
- }
-  .Portfolio hr
- {
-    
-    width: 130px;
+ /* //////////////// */
+ /* Portfolio */
+.Portfolio h2{
+font-size: 35px;
+font-weight: 600;
+text-align: center;
+}
+.hr{
+    background-color: #d7d7d7;
+    height: 2px;
+    width: 20%;
     margin: auto;
- }
- .Portfolio button
- {
-     margin-top: 30px;
-     border: none;
-     padding: 10px;
-     background-color: white;
-     border: medium none;
-    color: #333333;
-    font-size: 16px;
-    font-weight: 400;
-    transition: 00.5s;
- }
-
- .por-button:hover 
- {
-     color: #ff305b;
- }
-
- .Portfolio-member
- {
-     width: 33.33%;
-     float: left;
-    padding: 10px;
-    overflow: auto;
-    
-     
- }
- .inner
- {
-    position: relative;
-    overflow: auto;
- }
- .Portfolio-member img
- {
-     width: 100%;
-    
-
- }
- 
- 
-.img-hover
-{
+}
+.price{
+    border-radius: 5px;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 100%;
-    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.511);
     text-align: center;
-    font-size: 18px;
-    background-color: rgba(0, 0, 0, 0.664);
     color: white;
-    opacity: 0;
-    transition: opacity 1s;
-    
-    
-}
-.Portfolio-member:hover  .img-hover
-{
-    opacity: 1;
-}
-.icons
-{
-    text-align: center;
-    background-color: #f1f1f1;
-   
-    height: 40vh;
-}
-.icons-all
-{
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    transition: 0.5s;
 }
- 
-.member-icons
-{
-    float: left;
-    margin: 30px;
-
-}
-.member-icons i{
-    padding: 20px;
-    font-size: 28px;
-    text-align: center;
-    color: #ff305b;
-}
-.member-icons h4
-{
-    font-size: 26px;
-    font-weight: 800;
-}
-.member-icons p
-{
-    color: #555555;
-    font-size: 16px;
-    margin: 10px 50px;
-}
-
-.Feedback
-{
-    text-align: center;
-    margin: 20px 0px;
+.img_portfolio{
+    border-radius: 5px;
+    transition: 0.5s;
     
 }
-.Feedback h2
-{
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 30px;
-    margin-bottom: 20px;
-    margin-top: 80px;
+.Portfolio_member{
+    position: relative;
+    overflow: hidden;
 }
-.Feedback hr
- {
-    
-    width: 130px;
-    margin: auto;
+.Portfolio_member:hover .price{
+opacity: 1;
+}
+.Portfolio_member:hover .img_portfolio{
+    transform: scale(1.1);
+}
+.nav-pills .nav-link.active, .nav-pills .show .nav-link{
+    background-color: #f3d4db;
+}
+#pills-tab button{
+    color: black;
+    font-size: larger;
+    border: none !important;
+}
+/* ///////////////// */
+.iconss i{
+color: #ff305b;
+font-size: 40px;
+margin-bottom: 10px;
+}
+.iconss h4{
+    font-size: 35px;
+}
+.counters{
+    background-color: #eae7e7;
+}
 
-    
- }
+/* /////////////////// */
 
 
- .Feedback img
- {
-     padding-bottom: 50px;
- }
 
+ /* ////////// */
+ /* Blog */
 .Blog-all
 {
     background-color: #f1f1f1;
 }
- .Blog
- {
-    
-     width: 90%;
-     margin: auto;
- }
+
  .Blog-inner
  {
     background-color: white;
- }
-
- .Blog-member
- {
-     width: 33.3%;
-     float: left;
-     padding: 20px;
-    
- }
- 
- .Blog-member img
- {
-     width: 100%;
- }
- iframe{
-     width: 100%;
  }
  .Blog h2
  {
@@ -468,8 +298,6 @@ transform: scale(1.099);
     margin: 10px;
     padding-top: 50px;
     text-align: center;
-    
-    
  }
  .Blog hr
  {
@@ -495,8 +323,6 @@ transform: scale(1.099);
     font-size: 20px;
     margin-left: 15px;
     transition: 0.5s;
-   
-    
  }
 
  .h-hover:hover
@@ -507,13 +333,6 @@ transform: scale(1.099);
  {
      color: #ff305b;
  }
-
-
- 
-
-
-
-
  .Contact h2
  {
     font-size: 40px;
@@ -525,28 +344,21 @@ transform: scale(1.099);
     text-align: center;
     
  }
- 
- 
  .Contact hr
- {
-    
+ {  
     width: 130px;
     margin: auto;
-    margin-bottom: 60px;
-    
-    
+    margin-bottom: 60px;  
  }
  .name
  {
      height: 40px;
       width: 30%;
       border: solid 2px #79122773;
-      
  }
  .email
  {
     height: 40px;
-    
     width: 30%;
     border: solid 2px #79122773;
  }
@@ -617,27 +429,4 @@ form
 {
     color: #ce8997b9;
     text-decoration: underline;
-}
-
-
-
-@media all and (max-width:499px)
- {
-    
-
-  
-}
-
-@media all and (max-width:767px) and (min-width: 500px) 
-{
-
-    
-    
-  
-}
-
-@media all and (max-width:979px) and (min-width:768px)
-{
-    
-
 }

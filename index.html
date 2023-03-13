@@ -1,354 +1,627 @@
 <html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="x-icon" href="img/slider/slider-01.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>DANIELS / osama</title>
+  </head>
 
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Assignment 4 osama</title>
+  <body>
 
-</head>
-
-<body>
-    <div class="home">
-
-        <div class="home-nav">
-            <p class="logo">Fokir</p>
-
-            <ul>
-                <li><a class="hover-a" href="#">Home</a></li>
-                <li><a class="hover-a" href="#">About</a></li>
-                <li><a class="hover-a" href="#">Services</a></li>
-                <li><a class="hover-a" href="#">Portfolio</a></li>
-                <li><a class="hover-a" href="#">Testimonial</a></li>
-                <li><a class="hover-a" href="#">Blog</a></li>
-                <li><a class="hover-a" href="#">Contact</a></li>
-                <div class="clr"></div>
-
+    <div id="home" class="home">
+      <nav id="nav-main" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <h2 class="navbar-brand fs-2 fw-bolder text-white">DANIELS</h2>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white active"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="">Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#Portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item text-white">
+                <a class="nav-link text-white" href="#Blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#Contact">Contact</a>
+              </li>
             </ul>
-
-            <div class="clr"></div>
+          </div>
         </div>
+      </nav>
 
-        <div class="home-caption">
-            <div>
-                <h2>Hello i'm</h2>
-                <h1>ALEX SMITH</h1>
-                <p>Professional Web Designer</p>
-            </div>
-        </div>
-
-    </div>
-
-
-
-    <div class="all-about">
-        <div class="all-img">
-            <div class="about-member">
-                <img src="img/about/profile.jpg" alt="osama gamal">
-                <div class="about-icons">
-                    <a href="#" class="end"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="end"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="end"><i class="fab fa-google"></i></a>
-                    <a href="#" class="end"><i class="fab fa-github"></i></a>
-                </div>
-
-            </div>
-        </div>
-        <div class="all-about-caption"></div>
-        <div class="about-caption">
-            <h2>HELLO,</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-            <ul>
-                <li><span> <b> Name: </b></span> Rdam smith</li>
-                <li><span> <b> Job Title:</b></span> UI/UX Designer</li>
-                <li><span> <b> Age:</b></span> 26 Year</li>
-                <li><span> <b> Location:</b></span> United States, US</li>
-                <li><span> <b> Freelance:</b></span> Available</li>
-                <li><span> <b> E-mail:</b></span> <a href="#"> Nadia420@gmail.com</a></li>
-
-            </ul>
-            <button type="submit">Download CV <i class="fas fa-download"></i></button>
-            <button type="submit">Hire Me <i class="fas fa-paper-plane"></i></button>
-
-        </div>
-        <div class="clr"></div>
-
-
-    </div>
-
-
-
-
-
-
-
-    <div class="all-services">
-        <div class="Services">
-            <h1>Our Services</h1>
-
-            <hr>
-
-            <div class="member">
-                <i class="fas fa-calculator"></i>
-                <br>
-                <h3>UI/UX DESIGN</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
-                    necstatibus.
-                </p>
-            </div>
-            <div class="member">
-                <i class="fas fa-laptop-code"></i>
-                <br>
-                <h3>APP DEVELOPMENT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
-                    necstatibus.
-                </p>
-            </div>
-            <div class="member">
-                <i class="fas fa-calendar-alt"></i>
-                <br>
-                <h3>PRODUCT DESIGN</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
-                    necstatibus.
-                </p>
-            </div>
-            <div class="member">
-                <i class="fas fa-cogs"></i>
-                <br>
-                <h3>UI/UX DESIGN</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
-                    necstatibus.
-                </p>
-            </div>
-            <div class="clr"></div>
-        </div>
-    </div>
-
-
-
-
-
-
-    <div class="Portfolio">
-        <br>
-        <br>
-
-        <h2>Our Portfolio</h2>
-        <hr>
+      <div class="home-caption">
         <div>
-            <button class="por-button">ALL</button>
-            <button class="por-button">GRAPHIC</button>
-            <button class="por-button">WEB DESIGN</button>
-            <button class="por-button">BRANDING</button>
+          <h2>Hello i'm</h2>
+          <h1>ALEX SMITH</h1>
+          <p>Professional Web Designer</p>
         </div>
-
-
-        <div class="Portfolio-member">
-            <div class="inner">
-                <img src="img/portfolio/1.jpg" alt="osama">
-                <div class="img-hover">
-                    <p>price : 100$</p>
-                </div>
-            </div>
-        </div>
-        <div class="Portfolio-member">
-            <div class="inner">
-                <img src="img/portfolio/2.jpg" alt="osama">
-                <div class="img-hover">
-                    <p>price : 200$</p>
-                </div>
-            </div>
-        </div>
-        <div class="Portfolio-member">
-            <div class="inner">
-                <img src="img/portfolio/3.jpg" alt="osama">
-                <div class="img-hover">
-                    <p>price : 300$</p>
-                </div>
-            </div>
-        </div>
-        <div class="Portfolio-member">
-            <div class="inner">
-                <img src="img/portfolio/4.jpg" alt="osama">
-                <div class="img-hover">
-                    <p>price : 400$</p>
-                </div>
-            </div>
-        </div>
-        <div class="Portfolio-member">
-            <div class="inner">
-                <img src="img/portfolio/5.jpg" alt="osama">
-                <div class="img-hover">
-                    <p>price : 500$</p>
-                </div>
-            </div>
-
-        </div>
-        <div class="Portfolio-member">
-            <div class="inner">
-                <img src="img/portfolio/6.jpg" alt="osama">
-                <div class="img-hover">
-                    <p>price : 600$</p>
-                </div>
-            </div>
-
-        </div>
-        <div class="clr"></div>
-        <br>
-        <br>
-        <br>
-
+      </div>
     </div>
 
-    <div class="icons">
-        <div class="icons-all">
-            <div class="member-icons">
-                <i class="fas fa-users"></i>
-                <br>
-                <h4>35</h4>
-                <p>Team members</p>
+    <div id="about" class="about">
+      <div class="container py-5">
+        <div class="row gy-5">
+          <div class="col-md-6">
+            <div class="all-img">
+              <div class="about-member">
+                <img
+                  src="img/about/profile.jpg"
+                  class="w-100"
+                  alt="osama gamal"
+                />
+                <div class="about-icons">
+                  <a href="#" class="end"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="end"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="end"><i class="fab fa-google"></i></a>
+                  <a href="#" class="end"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
             </div>
-            <div class="member-icons">
-                <i class="fas fa-file-alt"></i>
-                <br>
-                <h4>325</h4>
-
-                <p>Complete Projects</p>
-            </div>
-            <div class="member-icons">
-                <i class="fas fa-cloud-download-alt"></i>
-                <br>
-                <h4>235</h4>
-
-                <p>Files Downloaded</p>
-            </div>
-            <div class="member-icons">
-                <i class="fas fa-coffee"></i>
-                <br>
-                <h4>641</h4>
-                <p>Lines Of Code</p>
+          </div>
+          <div class="col-md-6">
+            <div class="all-about-caption"></div>
+            <div class="about-caption">
+              <h2>HELLO,</h2>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <ul>
+                <li>
+                  <span> <b> Name: </b></span> Rdam smith
+                </li>
+                <li>
+                  <span> <b> Job Title:</b></span> UI/UX Designer
+                </li>
+                <li>
+                  <span> <b> Age:</b></span> 26 Year
+                </li>
+                <li>
+                  <span> <b> Location:</b></span> United States, US
+                </li>
+                <li>
+                  <span> <b> Freelance:</b></span> Available
+                </li>
+                <li>
+                  <span> <b> E-mail:</b></span>
+                  <a href="#"> Nadia420@gmail.com</a>
+                </li>
+              </ul>
+              <button type="submit">
+                Download CV <i class="fas fa-download"></i>
+              </button>
+              <button type="submit">
+                Hire Me <i class="fas fa-paper-plane"></i>
+              </button>
             </div>
             <div class="clr"></div>
+          </div>
         </div>
-
+      </div>
     </div>
 
-    </div>
+     <div id="services" class="all-services">
+      <h1 class="text-center fa-3x">Our Services</h1>
 
-    </div>
-
-    <div class="Feedback">
-        <h2>Client's Feedback</h2>
-        <hr>
-        <br>
-        <br>
-        <img src="img/Feedback.PNG" alt="">
-
-    </div>
-
-    <div class="Blog-all">
-
-        <div class="Blog">
-            <h2>Our Blog</h2>
-            <hr>
-
-            <div class="Blog-member">
-                <div class="Blog-inner">
-                    <img src="img/blog/1.jpg" alt="dr:osama">
-                    <p>23 November, 2015</p>
-                    <h3 class="h-hover">Web Design Blog Post</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt
-                        eius
-                        incidunt repellat molestiae.</p>
-                    <p class="Blog-hover">READ MORE <i class="fas fa-arrow-right"></i></p>
-                </div>
-
+      <div class="container">
+        <div class="Services">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="member">
+                <i class="fas fa-calculator"></i>
+                <br />
+                <h3>UI/UX DESIGN</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ratione adipisci mollitia quis necstatibus.
+                </p>
+              </div>
             </div>
-
-            <div class="Blog-member">
-                <div class="Blog-inner">
-                    <iframe width="560" height="200" src="https://www.youtube.com/embed/NM68s0UVV-I"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <p>20 April, 2018</p>
-                    <h3 class="h-hover">Development Blog Post</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt
-                        eius
-                        incidunt repellat molestiae.</p>
-                    <p class="Blog-hover">READ MORE <i class="fas fa-arrow-right"></i></p>
-                </div>
-
+            <div class="col-lg-3 col-md-6">
+              <div class="member">
+                <i class="fas fa-laptop-code"></i>
+                <br />
+                <h3>APP DEVELOPMENT</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ratione adipisci mollitia quis necstatibus.
+                </p>
+              </div>
             </div>
-
-            <div class="Blog-member">
-                <div class="Blog-inner">
-                    <img src="img/blog/3.jpg" alt="osama">
-                    <p>17 May, 2017</p>
-                    <h3 class="h-hover">Full Width Blog Post</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt
-                        eius
-                        incidunt repellat molestiae.</p>
-                    <p class="Blog-hover">READ MORE <i class="fas fa-arrow-right"></i></p>
-                </div>
-
+            <div class="col-lg-3 col-md-6">
+              <div class="member">
+                <i class="fas fa-calendar-alt"></i>
+                <br />
+                <h3>PRODUCT DESIGN</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ratione adipisci mollitia quis necstatibus.
+                </p>
+              </div>
             </div>
-            <div class="clr"></div>
-
-
-
+            <div class="col-lg-3 col-md-6">
+              <div class="member">
+                <i class="fas fa-cogs"></i>
+                <br />
+                <h3>UI/UX DESIGN</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ratione adipisci mollitia quis necstatibus.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <br>
-        <br>
+      </div>
+    </div> 
 
-
-
-    </div>
-
-
-
-    <div class="contact">
-        <h2>Contact Us</h2>
-        <hr>
-        <form>
-            <div>
-                <input type="text" name="userName" placeholder="  Name" class="name" required="required"
-                    data-error="Firstname is required.">
-                <input type="email" name="userEmail" placeholder="  email" class="email" required="required"
-                    data-error="Valid email is required.">
-                <br>
-                <input type="text" name="userSubject" class="subject" placeholder="   subject" required="required"
-                    data-error="Subject is required.">
-                <br>
-                <textarea class="text" data-error="Please,leave us a message." placeholder=" message for me"></textarea>
-                <br>
-                <button class="btn1" type="submit">Send Message</button>
-                <br>
-                <br>
-            </div>
-        </form>
-    </div>
-
-    <div class="the-end">
-        <ul>
-            <a href="#" class="end"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="end"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="end"><i class="fab fa-google"></i></a>
-            <a href="#" class="end"><i class="fab fa-github"></i></a>
-        </ul>
-        <br>
-
-        <p>Copy Right 2018 © By <a href="#" class="ends"> Theme-fair</a>All Rights Reserved</p>
-    </div>
    
-</body>
 
+    <div id="Portfolio" class="Portfolio py-4">
+      <h2>Our Portfolio</h2>
+        <div class="hr"></div>
+        
+  
+        <ul class="nav nav-pills pt-5 mb-3  d-flex justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link m-2 p-2 active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">ALL</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link m-2 p-2" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">GRAPHIC</button>
+          </li>
+          <li class="nav-item " role="presentation">
+            <button class="nav-link m-2 p-2" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">WEB DESIGN</button>
+          </li>
+          <li class="nav-item  " role="presentation">
+            <button class="nav-link m-2 p-2" id="pills-Brand-tab" data-bs-toggle="pill" data-bs-target="#pills-Brand" type="button" role="tab" aria-controls="pills-Brand" aria-selected="false">BRANDING</button>
+          </li>
+         
+        </ul>
+      
+      <div class="container">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              <div class="row py-4  gy-3 gx-3">
+
+                <div class="col-md-4">
+                  <div class="Portfolio_member">
+                    <img
+                      src="img/portfolio/1.jpg"
+                      class="w-100 img_portfolio"
+                      alt="oo"
+                    />
+                    <div class="price">
+                      <h4>price : 100$</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="Portfolio_member">
+                    <img
+                      src="img/portfolio/2.jpg"
+                      class="w-100 img_portfolio"
+                      alt="oo"
+                    />
+                    <div class="price">
+                      <h4>price : 200$</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="Portfolio_member">
+                    <img
+                      src="img/portfolio/3.jpg"
+                      class="w-100 img_portfolio"
+                      alt="oo"
+                    />
+                    <div class="price">
+                      <h4>price : 300$</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="Portfolio_member">
+                    <img
+                      src="img/portfolio/4.jpg"
+                      class="w-100 img_portfolio"
+                      alt="oo"
+                    />
+                    <div class="price">
+                      <h4>price : 400$</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="Portfolio_member">
+                    <img
+                      src="img/portfolio/5.jpg"
+                      class="w-100 img_portfolio"
+                      alt="oo"
+                    />
+                    <div class="price">
+                      <h4>price : 500$</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="Portfolio_member">
+                    <img
+                      src="img/portfolio/6.jpg"
+                      class="w-100 img_portfolio"
+                      alt="oo"
+                    />
+                    <div class="price">
+                      <h4>price : 600$</h4>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+              <div class="row py-4 gy-3 gx-3">
+              <div class="col-md-4">
+                <div class="Portfolio_member">
+                  <img
+                    src="img/portfolio/1.jpg"
+                    class="w-100 img_portfolio"
+                    alt="oo"
+                  />
+                  <div class="price">
+                    <h4>price : 100$</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="Portfolio_member">
+                  <img
+                    src="img/portfolio/4.jpg"
+                    class="w-100 img_portfolio"
+                    alt="oo"
+                  />
+                  <div class="price">
+                    <h4>price : 400$</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="Portfolio_member">
+                  <img
+                    src="img/portfolio/5.jpg"
+                    class="w-100 img_portfolio"
+                    alt="oo"
+                  />
+                  <div class="price">
+                    <h4>price : 500$</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="Portfolio_member">
+                  <img
+                    src="img/portfolio/6.jpg"
+                    class="w-100 img_portfolio"
+                    alt="oo"
+                  />
+                  <div class="price">
+                    <h4>price : 600$</h4>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+              <div class="row py-4 gy-3 gx-3">
+                <div class="col-md-4">
+                  <div class="Portfolio_member">
+                    <img
+                      src="img/portfolio/2.jpg"
+                      class="w-100 img_portfolio"
+                      alt="oo"
+                    />
+                    <div class="price">
+                      <h4>price : 200$</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="Portfolio_member">
+                    <img
+                      src="img/portfolio/3.jpg"
+                      class="w-100 img_portfolio"
+                      alt="oo"
+                    />
+                    <div class="price">
+                      <h4>price : 300$</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="Portfolio_member">
+                    <img
+                      src="img/portfolio/4.jpg"
+                      class="w-100 img_portfolio"
+                      alt="oo"
+                    />
+                    <div class="price">
+                      <h4>price : 400$</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+            <div class="tab-pane fade" id="pills-Brand" role="tabpanel" aria-labelledby="pills-Brand-tab" tabindex="0">
+              <div class="row py-4 gy-3 gx-3">
+              <div class="col-md-4">
+                <div class="Portfolio_member">
+                  <img
+                    src="img/portfolio/6.jpg"
+                    class="w-100 img_portfolio"
+                    alt="oo"
+                  />
+                  <div class="price">
+                    <h4>price : 100$</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="Portfolio_member">
+                  <img
+                    src="img/portfolio/1.jpg"
+                    class="w-100 img_portfolio"
+                    alt="oo"
+                  />
+                  <div class="price">
+                    <h4>price : 100$</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="Portfolio_member">
+                  <img
+                    src="img/portfolio/2.jpg"
+                    class="w-100 img_portfolio"
+                    alt="oo"
+                  />
+                  <div class="price">
+                    <h4>price : 200$</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="Portfolio_member">
+                  <img
+                    src="img/portfolio/3.jpg"
+                    class="w-100 img_portfolio"
+                    alt="oo"
+                  />
+                  <div class="price">
+                    <h4>price : 300$</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="Portfolio_member">
+                  <img
+                    src="img/portfolio/4.jpg"
+                    class="w-100 img_portfolio"
+                    alt="oo"
+                  />
+                  <div class="price">
+                    <h4>price : 400$</h4>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="counters my-4 mx-3">
+      <div class="container">
+        <div class="row text-center py-5">
+          <div class="col-lg-3 col-md-6">
+            <div class="iconss text-center">
+              <i class="fas fa-users"></i>
+              <h4>35</h4>
+              <p class="text-muted">Team members</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="iconss">
+              <i class="fas fa-file-alt"></i>
+              <h4>325</h4>
+              <p class="text-muted">Complete Projects</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="iconss">
+              <i class="fas fa-coffee"></i>
+              <h4>641</h4>
+              <p class="text-muted">Lines Of Code</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="iconss">
+              <i class="fas fa-cloud-download-alt"></i>
+              <br />
+              <h4>235</h4>
+
+              <p class="text-muted">Files Downloaded</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div id="Blog" class="Blog-all">
+      <div class="Blog">
+        <h2>Our Blog</h2>
+        <hr />
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="Blog-member">
+                <div class="Blog-inner">
+                  <img src="img/blog/1.jpg" class="w-100" alt="dr:osama" />
+                  <p>23 November, 2015</p>
+                  <h3 class="h-hover">Web Design Blog Post</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                    molestiae.
+                  </p>
+                  <p class="Blog-hover">
+                    READ MORE <i class="fas fa-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="Blog-member">
+                <div class="Blog-inner">
+                  <img src="img/blog/3.jpg" class="w-100" alt="dr:osama" />
+                  <p>23 November, 2015</p>
+                  <h3 class="h-hover">Web Design Blog Post</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                    molestiae.
+                  </p>
+                  <p class="Blog-hover">
+                    READ MORE <i class="fas fa-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="Blog-member">
+                <div class="Blog-inner">
+                  <img src="img/blog/1.jpg" class="w-100" alt="osama" />
+                  <p>17 May, 2017</p>
+                  <h3 class="h-hover">Full Width Blog Post</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                    molestiae.
+                  </p>
+                  <p class="Blog-hover">
+                    READ MORE <i class="fas fa-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div id="Contact" class="contact"> 
+      <h2>Contact Us</h2>
+      <hr />
+      <form>
+        <div>
+          <input
+            type="text"
+            name="userName"
+            placeholder="  Name"
+            class="name p-2"
+            required="required"
+            data-error="Firstname is required."
+          />
+          <input
+            type="email"
+            name="userEmail"
+            placeholder="  email"
+            class="email p-2"
+            required="required"
+            data-error="Valid email is required."
+          />
+          <br />
+          <input
+            type="text"
+            name="userSubject"
+            class="subject p-2"
+            placeholder="   subject"
+            required="required"
+            data-error="Subject is required."
+          />
+          <br />
+          <textarea
+            class="text p-2"
+            data-error="Please,leave us a message."
+            placeholder=" message for me"
+          ></textarea>
+          <br />
+          <button class="btn1" type="submit">Send Message</button>
+          <br />
+          <br />
+        </div>
+      </form>
+    </div>
+
+    <div id="the-end" class="the-end">
+      <ul>
+        <a href="#" class="end"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="end"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="end"><i class="fab fa-google"></i></a>
+        <a href="#" class="end"><i class="fab fa-github"></i></a>
+      </ul>
+      <br />
+
+      <p>
+        Copy Right 2018 © By <a href="#" class="ends"> Theme-fair</a>All Rights
+        Reserved
+      </p>
+    </div> 
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
-
-
-
